@@ -1,3 +1,9 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
 .link {
   text-decoration: none;
 }
@@ -11,12 +17,11 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   background: #ffffff;
 }
 
 .navigation-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -26,12 +31,11 @@ body {
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .email-link,
 .phone-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -42,11 +46,10 @@ body {
 .email-link:hover,
 .phone-link:focus,
 .phone-link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -57,7 +60,6 @@ body {
 }
 
 .modal-btn {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -67,7 +69,6 @@ body {
 }
 
 .advantages-title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -77,7 +78,6 @@ body {
 }
 
 .advantages-text {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -85,7 +85,6 @@ body {
 }
 
 .occupation-title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -94,7 +93,6 @@ body {
 }
 
 .team-title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -103,7 +101,6 @@ body {
 }
 
 .team-list-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -112,7 +109,6 @@ body {
 }
 
 .team-list-occupation {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -120,12 +116,12 @@ body {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-item {
@@ -133,7 +129,6 @@ body {
 }
 
 .footer-direct-address {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -141,7 +136,6 @@ body {
 }
 
 .footer-link {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -152,5 +146,5 @@ body {
 .footer-direct-address:focus,
 .footer-link:hover,
 .footer-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
