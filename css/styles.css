@@ -21,6 +21,8 @@ body {
   background: #ffffff;
 }
 
+/* HEADER */
+
 .navigation-link {
   font-weight: 500;
   font-size: 14px;
@@ -49,6 +51,9 @@ body {
   color: var(--accent-color);
 }
 
+/* END HEADER */
+
+/* HERO */
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -68,6 +73,9 @@ body {
   cursor: pointer;
 }
 
+/* END HERO */
+
+/* ADVANTAGES */
 .advantages-title {
   font-weight: bold;
   font-size: 14px;
@@ -84,6 +92,10 @@ body {
   color: #757575;
 }
 
+/* ADVANTAGES END */
+
+/* OCCUPATION */
+
 .occupation-title {
   font-weight: bold;
   font-size: 36px;
@@ -92,6 +104,9 @@ body {
   color: #212121;
 }
 
+/* OCCUPATION END */
+
+/* TEAM */
 .team-title {
   font-weight: bold;
   font-size: 36px;
@@ -114,7 +129,9 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* TEAM END */
 
+/* LOGO */
 .logo {
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -128,6 +145,9 @@ body {
   /* color: #ffffff; */
 }
 
+/* LOGO END */
+
+/* FOOTER */
 .footer-direct-address {
   font-size: 14px;
   line-height: 1.71;
@@ -148,3 +168,34 @@ body {
 .footer-link:focus {
   color: var(--accent-color);
 }
+/* FOOTER END */
+
+/* FILTERS */
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* FILTERS END */
+
+/* PROJECTS */
+
+.projects-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* PROJECTS END */
