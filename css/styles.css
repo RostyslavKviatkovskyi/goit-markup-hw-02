@@ -3,9 +3,11 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --background-color: #ffffff;
-  --background-hero: #2f303a;
+  --background-hero-footer: #2f303a;
   --h-color: #212121;
   --text-color: #757575;
+  --background-team: #f5f4fa;
+  --logo-item-header: #000000;
 }
 
 .link {
@@ -23,7 +25,36 @@
 body {
   font-family: var(--main-font);
   background: var(--background-color);
+  font-size: 16px;
 }
+
+/* BUTTONS */
+.modal-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--h-color);
+  cursor: pointer;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+/* BUTTONS END */
 
 /* HEADER */
 
@@ -32,7 +63,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--h-color);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .navigation-link:hover,
@@ -59,7 +93,7 @@ body {
 
 /* HERO */
 .hero {
-  background-color: var(--background-hero);
+  background-color: var(--background-hero-footer);
 }
 
 .hero-title {
@@ -69,16 +103,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-color);
-}
-
-.modal-btn {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--background-color);
-  cursor: pointer;
-  background-color: var(--accent-color);
 }
 
 /* END HERO */
@@ -116,7 +140,7 @@ body {
 
 /* TEAM */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-team);
 }
 
 .team-title {
@@ -154,7 +178,7 @@ body {
 }
 
 .logo-item-header {
-  color: #000000;
+  color: var(--logo-item-header);
 }
 
 .logo-item-footer {
@@ -165,7 +189,7 @@ body {
 /* FOOTER */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-hero-footer);
 }
 
 .footer-direct-address {
@@ -189,17 +213,6 @@ body {
   color: var(--accent-color);
 }
 /* FOOTER END */
-
-/* FILTERS */
-.filters-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: var(--h-color);
-}
-
-/* FILTERS END */
 
 /* PROJECTS */
 
