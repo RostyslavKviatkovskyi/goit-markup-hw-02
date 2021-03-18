@@ -10,6 +10,12 @@
   --logo-item-header: #000000;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .link {
   text-decoration: none;
 }
